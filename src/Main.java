@@ -6,7 +6,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        Theatre theatre = new Theatre("Olymp", 8,12);
+        Theatre theatre = new Theatre("Olymp", 7,12);
 
         if(theatre.reserveSeat("D12")){
             System.out.println("Please pay for D12");
