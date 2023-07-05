@@ -1,20 +1,17 @@
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
+
+    Scanner scanner =  new Scanner(System.in);
     public static void main(String[] args) {
 
         Theatre theatre = new Theatre("Olymp", 7,12);
 
         if(theatre.reserveSeat("D12")){
             System.out.println("Please pay for D12");
-        }else{
-            System.out.println("Seat already reserved");
-        }
-        if(theatre.reserveSeat("B13")){
-            System.out.println("Please pay for B13");
         }else{
             System.out.println("Seat already reserved");
         }
